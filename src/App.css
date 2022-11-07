@@ -53,11 +53,11 @@ body{
 }
 .cha2{
   display: flex;
-  width: 437px;
-  height: 696px;
+  width: 292px;
+  height: 550px;
   flex-direction: column;
   background-color: #062226;
-  ;
+  border-radius: 20px;
 }
 
 .cha2>p{
@@ -75,13 +75,14 @@ color: #FBFBFB;
 }
 
 .cha2>img{
-  width: 437px;
-  height: 402px;
+  width: 292px;
+  height: 268px;
+  border-radius: 20px;
 }
 
 .status{
   position: relative;
-  bottom: 24rem;
+  bottom: 15rem;
   display: flex;
   background-color: #062226;
   border-radius: 0px 12px 12px 0px;
