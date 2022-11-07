@@ -1,0 +1,146 @@
+body{
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:  #E5E5E5;
+}
+
+.App{
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+#rick{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.type{
+  display: flex;
+  background-color: #062226;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.characters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+.cha2{
+  display: flex;
+  width: 437px;
+  height: 696px;
+  flex-direction: column;
+  background-color: #062226;
+  ;
+}
+
+.cha2>p{
+  width: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px; 
+  display: flex;
+  align-items: center;
+
+color: #FBFBFB;
+
+}
+
+.cha2>img{
+  width: 437px;
+  height: 402px;
+}
+
+.status{
+  position: relative;
+  bottom: 24rem;
+  display: flex;
+  background-color: #062226;
+  border-radius: 0px 12px 12px 0px;
+  width: 180px;
+  height: 42px;
+  justify-content: left;
+  align-items: center;
+}
+
+.status>p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.circle{
+  background: #938686;
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.circle.alive{
+  background-color: #4AB648;
+}
+
+.circle.dead{
+  background-color: #B94343;
+  
+}
+
+.input{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #062226;
+  margin: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.inputd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b1{
+
+}
+
+
+
+
