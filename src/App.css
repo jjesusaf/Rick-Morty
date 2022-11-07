@@ -4,9 +4,8 @@ body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color:  #E5E5E5;
+  background-image: linear-gradient(to right top, #050f37, #11285d, #1a4385, #1c60b0, #0980dd);  
 }
-
 .App{
   width: auto;
   height: auto;
@@ -29,7 +28,7 @@ body{
 
 .type{
   display: flex;
-  background-color: #062226;
+  background-image: linear-gradient(to right top, #0d4d79, #22608f, #3373a5, #4387bc, #539bd3);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -56,7 +55,7 @@ body{
   width: 292px;
   height: 550px;
   flex-direction: column;
-  background-color: #062226;
+  background-image: linear-gradient(to right top, #0d4d79, #22608f, #3373a5, #4387bc, #539bd3);
   border-radius: 20px;
 }
 
@@ -69,8 +68,7 @@ body{
   line-height: 28px; 
   display: flex;
   align-items: center;
-
-color: #FBFBFB;
+  color: #FBFBFB;
 
 }
 
@@ -84,7 +82,7 @@ color: #FBFBFB;
   position: relative;
   bottom: 15rem;
   display: flex;
-  background-color: #062226;
+  background-image: linear-gradient(to right top, #0d4d79, #22608f, #3373a5, #4387bc, #539bd3);
   border-radius: 0px 12px 12px 0px;
   width: 180px;
   height: 42px;
@@ -125,7 +123,7 @@ color: #FBFBFB;
   width: 300px;
   height: 30px;
   border-radius: 10px;
-  background-color: #062226;
+  background-image: linear-gradient(to right top, #0d4d79, #22608f, #3373a5, #4387bc, #539bd3);
   margin: 2rem;
   text-align: center;
   color: #FFFFFF;
